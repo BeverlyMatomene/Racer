@@ -20,8 +20,7 @@ void ARacerCheckpointVolume::OnOverlapBegin(class AActor* OverlappedActor, class
 {
 	if (ARacerCharacter* RacerCharacter = Cast<ARacerCharacter>(OtherActor))
 	{
-		APlayerController* PlayerController = RacerCharacter->GetController <APlayerController>();
-		if (PlayerController)
+	
 		{
 			if (IsFinishLine)
 			{
