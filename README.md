@@ -1,9 +1,9 @@
 Racer is a mini Game I have created in order to learn C++ and Unreal Engine. 
 
-Going through its code and blue prints, you would be able to see the different mechanics I tried to implement in order to have a better understanding of the challenge encounter during the creation of a game. 
+Going through its code and blueprints, you would be able to see the different mechanics I implemented in order to have a better understanding of the challenges encountered during the creation of a game. 
 
 Builds
-Currently Racer has two levels. One where you would be able to Race again an AI and another one made specialy to race against someone else. 
+Currently Racer has two levels. One where you would be able to Race against an AI and another one made specifically to race against someone else using splitscreen. 
 
 Some of the mechanics implemented in the game:
 
