@@ -9,17 +9,17 @@ void UObjectiveWorldSubsystem::CreateObjectiveWidget(TSubclassOf<UUserWidget> Ob
 	if (ObjectiveWidget == nullptr)
 	{
 		APlayerController* PlayerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
-		ObjectiveWidget = CreateWidget<UUserWidget>(PlayerController, ObjectiveWidgetClass);
+	//	ObjectiveWidget = CreateWidget<UUserWidget>(PlayerController, ObjectiveWidgetClass);
 	}
 }
 
 void UObjectiveWorldSubsystem::DisplayObjectiveWidget()
 {
 	ensureMsgf(ObjectiveWidget, TEXT ("UObjectiveWorldSubsystem::DisplayObjectiveWidget ObjectiveWidget is nullptr"));
-	ObjectiveWidget->AddToViewport();
+//	ObjectiveWidget->AddToViewport();
 }
 
 void UObjectiveWorldSubsystem::OnObjectiveCompleted()
 {
-	DisplayObjectiveWidget();
+	//DisplayObjectiveWidget();
 }

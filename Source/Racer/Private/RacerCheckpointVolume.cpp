@@ -18,7 +18,7 @@ void ARacerCheckpointVolume::BeginPlay()
 
 void ARacerCheckpointVolume::OnOverlapBegin(class AActor* OverlappedActor, class AActor* OtherActor)
 {
-w	if (ARacerCharacter* RacerCharacter = Cast<ARacerCharacter>(OtherActor))
+	if (ARacerCharacter* RacerCharacter = Cast<ARacerCharacter>(OtherActor))
 	{
 	
 		{
